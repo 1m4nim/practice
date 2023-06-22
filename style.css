@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    background-color: #63534d;
+}
+
+article {
+    background-color: #f3b7a0;
+}
+
+section {
+    background-color: #ffe0b6;
+    text-align: center;
+}
+
+section img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 15%;
+    transition: 1s all;
+}
+
+section img:hover {
+    transform: scale(1.5, 1.5);
+
+}
+
+section h1 {
+    font-size: 250%;
+    color: rgb(140, 27, 46)
+}
+
+section p {
+    font-size: 125%;
+    margin-bottom: 10%;
+}
+
